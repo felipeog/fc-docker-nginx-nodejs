@@ -2,5 +2,6 @@ USE nodedb;
 
 CREATE TABLE people(
   id INT NOT NULL AUTO_INCREMENT,
-  name VARCHAR(355), PRIMARY KEY (id)
+  name VARCHAR(355),
+  PRIMARY KEY (id)
 );
