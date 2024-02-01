@@ -1,4 +1,4 @@
-FROM nginx
+FROM nginx:1.25.3
 
 # install dockerize
 ENV DOCKERIZE_VERSION v0.7.0

@@ -1,4 +1,4 @@
-FROM node
+FROM node:21.6.1
 WORKDIR /usr/src/app
 
 # install dockerize
@@ -10,6 +10,6 @@ RUN apt-get update \
 
 # copy node project and install depencies
 COPY . .
-RUN npm ci
+RUN npm install --quiet
 
 EXPOSE 3000
