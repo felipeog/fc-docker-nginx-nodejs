@@ -1,7 +1,7 @@
-USE nodedb;
+use `nodedb`;
 
-CREATE TABLE people(
-  id INT NOT NULL AUTO_INCREMENT,
-  name VARCHAR(355),
-  PRIMARY KEY (id)
+create table `people`(
+  `id` int not null auto_increment,
+  `name` varchar(255),
+  primary key (`id`)
 );
